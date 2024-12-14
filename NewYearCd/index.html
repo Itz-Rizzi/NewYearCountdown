@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Yenni Rishi</title>
+    <style>
+        #events li {
+            margin-bottom: 10px; /* Add space between list items */
+        }
+
+        .timer {
+            margin-top: 40px; /* Increase space above the timer */
+            text-align: center; /* Center-align the timer */
+            
+        }
+
+        .countdown-time {
+            font-size: 2em; /* Adjust font size if needed */
+            font-weight: bold;
+        }
+
+        span{
+            color: rgb(226, 43, 43);
+        }
+        li{
+            color: rgb(0, 255, 17);
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div class="countdown">
+        <span><h1>New Year Countdown!!!</h1></span>
+       
+        <h3>major events on way :</h3>
+        <ul id="events">
+            <li>Shortest Day: <span id="shortest-day"></span></li>
+            <li>Christmas: <span id="christmas"></span></li>
+            <li>New Year: <span id="new-year"></span></li>
+        </ul>
+
+        <div class="timer"><h1><div class="countdown-time" id="countdown">00:00:00:00</h1></div></div>
+
+    <div class="preview"><a href="#" onclick="previewMessage()">Preview</a></div>
+        
+    </div>
+    
+        
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="back.mp4" type="video/mp4">
+        </video>
+    
+    </div>
+    
+    </div>
+    <div class="portfolio">
+        <img src="me.png" alt="Profile Picture" width = '130' height = '100'  class="portfolio-pic">
+        <div class="portfolio-info">
+          <h2 class="portfolio-name">Yenni Rishi</h2>
+          <p class="portfolio-skills">Skills: HTML, CSS, JavaScript, C,C++,python</p>
+          <p>Softwares: Blender, Unity , canva</p>
+          <p>I am very eager to do this GDG project and get my skills improved !!</p>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
